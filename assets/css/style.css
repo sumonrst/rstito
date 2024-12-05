@@ -18,10 +18,160 @@ Theme Name : RSTITO
     8. Contact CSS
 */
 
+/* 1. Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #333;
+  }
+  
+  a{
+      color: #333;
+      transition: .3s;
+  }
+  
+  .pt-100{
+      padding-top: 100px;
+  }
+  .pt-90{
+      padding-top: 90px;
+  }
+  .pt-80{
+      padding-top: 80px;
+  }
+  .pt-70{
+      padding-top:70px;
+  }
+  
+  .pb-100{
+      padding-bottom: 100px;
+  }
+  .pb-90{
+      padding-bottom: 90px;
+  }
+  .pb-80{
+      padding-bottom: 80px;
+  }
+  .pb-70{
+      padding-bottom: 70px;
+  }
+
 /* 2. Header  */
-.header-top {
-	background-color: #1c253c;
-	color: #fff;
+
+.navbar-brand {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+  }
+  .navbar-brand span {
+    color: #F12C01;
+  }
+
+  
+  .header-area {
+	padding: 12px 0;
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	right: 0;
 }
+  .navbar-nav a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 18px;
+    transition: .3s;
+  }
+  .navbar-nav a:hover{
+    color: #F12C01;
+    transition: .3s;
+  }
+
+
+
+/* 3. Banner CSS */
+.banner-area {
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+.banner-area::before {
+	position: absolute;
+	content: "";
+	/* background-color: #333; */
+	width: 100%;
+	height: 100%;
+	opacity: 0.45;
+	z-index: -1;
+	/* background-image: linear-gradient(to right top, #000000, #40111d, #7c1126, #b91222, #f12c01); */
+	background: hsla(11, 99%, 47%, 1);
+	background: linear-gradient(45deg, hsla(11, 99%, 47%, 1) 1%, hsla(0, 0%, 0%, 1) 60%);
+	background: -moz-linear-gradient(45deg, hsla(11, 99%, 47%, 1) 1%, hsla(0, 0%, 0%, 1) 60%);
+	background: -webkit-linear-gradient(45deg, hsla(11, 99%, 47%, 1) 1%, hsla(0, 0%, 0%, 1) 60%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F12C01", endColorstr="#000000", GradientType=1 );
+}
+
+.banner-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 90vh;
+}
+.banner-content h2 {
+	font-size: 70px;
+	font-weight: 800;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.banner-content h2 span {
+    color: #F12C01;
+  }
+  .banner-content h5 {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .banner-content p {
+    max-width: 600px;
+  }
+  
+.btn {
+    color: #fff;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    border-radius: 37px;
+    padding: 9px 24px;
+    transition: .3s;
+  }
+  .btn.btn-box {
+    background-color: #F12C01;
+    transition: .3s;
+  }
+  .banner-btn .btn {
+    margin-right: 15px;
+  }
+  .btn.btn-box:hover {
+    background-color: transparent;
+    transition: .3s;
+    border: 2px solid #fff;
+  }
+  .btn.btn-border:hover {
+    background-color: #F02B00;
+    transition: .3s;
+    border: 2px solid #fff;
+  }
+  .banner-btn {
+    margin-top: 17px;
+  }
 
 
