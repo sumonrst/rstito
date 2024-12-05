@@ -62,6 +62,9 @@ Theme Name : RSTITO
       padding-bottom: 70px;
   }
 
+
+
+
 /* 2. Header  */
 
 .navbar-brand {
@@ -81,6 +84,7 @@ Theme Name : RSTITO
 	z-index: 99;
 	left: 0;
 	right: 0;
+    border-bottom: 1px solid aliceblue;
 }
   .navbar-nav a {
     font-size: 16px;
