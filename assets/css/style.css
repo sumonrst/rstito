@@ -13,9 +13,8 @@ Theme Name : RSTITO
     3. Banner CSS
     4. About CSS
     5. Services CSS
-    6. Portfolio CSS
-    7. Blog CSS
-    8. Contact CSS
+    6. Experience CSS
+
 */
 
 /* 1. Common CSS */
@@ -242,7 +241,6 @@ Theme Name : RSTITO
   font-size: 38px;
   font-weight: 700;
   text-transform: capitalize;
-  /*! line-height: 46px; */
   position: relative;
   margin-bottom: 41px;
 }
@@ -380,7 +378,51 @@ Theme Name : RSTITO
 }
 .about-right img {
 	border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* 5. Experience CSS */
+.experience-area {
+	background-color: #F7F7F7;
+}
+.section-title h5{
+  text-transform: uppercase;
+  color: #888;
+}
+
+.section-title h2 {
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: capitalize;
+	position: relative;
+	margin-bottom: 41px;
+}
+.section-title h2::after {
+	position: absolute;
+	content: "";
+	background-color: rgb(0, 0, 0);
+	width: 20px;
+	height: 5px;
+	bottom: -14px;
+	left: 65px;
+	display: block;
+	border-radius: 39px;
+}
+.section-title h2::before {
+	position: absolute;
+	content: "";
+	background-color: rgb(241, 44, 1);
+	width: 60px;
+	height: 5px;
+	border-radius: 42px;
+	top: 110%;
+	bottom: 0px !important;
+	transform: translateX(-50%);
+	display: block;
+	left: 30px;
+}
+
+
 
 
 
