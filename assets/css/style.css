@@ -730,7 +730,7 @@ Theme Name : RSTITO
   margin-bottom:15px;
 }
 .single-testimonial h4 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
   color: #333333;
   transition:.3s;
@@ -740,6 +740,73 @@ Theme Name : RSTITO
   font-size: 17px;
   text-transform: capitalize;
   font-weight: 500;
+}
+
+/* Testimonial Slider CSS Start */
+.testimonial-slider {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  height: 100%;
+  padding: 40px;
+}
+
+.single-testimonial-slider p {
+	max-width: 391px;
+}
+.testimonial-slider .slick-arrow {
+  margin-bottom: -238px;
+  position: absolute  ;
+}
+.slick-arrow.slick-prev {
+	left: 40px !important;
+}
+.slick-arrow.slick-next {
+  left: 98px !important;
+}
+.testimonial-slider button {
+  background-color: transparent;
+  border: 0;
+}
+.testimonial-slider button i {
+	font-size: 24px;
+	color: #000;
+	background-color: #F12C01;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+  transition: .3s;
+}
+.testimonial-slider button i:hover {
+	background-color: #000;
+	transition: .3s;
+	color: #F12C01;
+}
+
+.client {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+}
+.client img {
+  border: 1px solid #F12C01;
+  border-radius: 50%;
+  width: 50px;
+}
+.client h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.client h4 span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
 }
 
 

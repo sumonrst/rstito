@@ -1,4 +1,15 @@
 
+$(document).ready(function(){
+    $('.testimonial-slider').slick({
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
+        arrows: true,
+        slidesToShow: 1,
+    });
+  });
+
+
+
 $(window).on('scroll', function () {
     if($(window).scrollTop() > 100) {
         $('.header-area').addClass('sticky');
