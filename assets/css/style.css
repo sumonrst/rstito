@@ -523,6 +523,10 @@ Theme Name : RSTITO
   text-transform: capitalize;
   margin: 16px 0;
 }
+.service-image img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
 .icon {
   margin-top: -26px;
 }
