@@ -14,6 +14,7 @@ Theme Name : RSTITO
     4. About CSS
     5. Experience CSS
     6. Services CSS
+    7. Contact CSS
 
 */
 
@@ -529,9 +530,7 @@ Theme Name : RSTITO
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
-.icon {
-  margin-top: -26px;
-}
+
 .icon i {
   font-size: 23px;
   width: 55px;
@@ -542,15 +541,12 @@ Theme Name : RSTITO
   border-radius: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
-
-
 .service-btn a i {
   float: right;
   margin-top: 5px;
 }
 .service-btn {
-  padding: 5px 19px;
+  padding: 8px 19px;
   background-color: #010D25;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -567,6 +563,66 @@ Theme Name : RSTITO
   font-weight: 500;
   text-decoration: none;
 }
+
+/* 7. Contact CSS */
+
+.contact-area{
+  background-color: #F7F7F7;
+}
+
+
+
+.contact-wrapper {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border: 17px solid #fff;
+  border-radius: 10px;
+  padding: 40px 15px;
+}
+.contact-wrapper h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.single-col-row {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+}
+.single-col-row input, textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.single-col-row textarea {
+	height: 150px;
+	resize: none;
+}
+
+.single-col-row textarea {
+  height: 150px;
+  resize: none;
+}
+.single-col-row input[type="submit"] {
+  background-color: #F12C01;
+  border: 1px solid #F12C01;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: .3s;
+  width: 205px;
+  padding: 13px 0;
+  border-radius: 10px;
+}
+.single-col-row input[type="submit"]:hover {
+  background-color: #333;
+  transition: .3s;
+  border: 1px solid #333;
+}
+
+
+
 
 
 
