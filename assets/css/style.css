@@ -12,8 +12,8 @@ Theme Name : RSTITO
     2. Header CSS
     3. Banner CSS
     4. About CSS
-    5. Services CSS
-    6. Experience CSS
+    5. Experience CSS
+    6. Services CSS
 
 */
 
@@ -33,6 +33,39 @@ Theme Name : RSTITO
   a{
       color: #333;
       transition: .3s;
+  }
+
+  .section-title_2 h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 41px;
+  }
+
+  .section-title_2 h2::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(241, 44, 1);
+    width: 60px;
+    height: 5px;
+    border-radius: 42px;
+    top: 117%;
+    bottom: 0px !important;
+    transform: translateX(-50%);
+    display: block;
+    left: 49%;
+  }
+  .section-title_2 h2::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 5px;
+    bottom: -13px;
+    left: 52%;
+    display: block;
+    border-radius: 39px;
   }
 
   
@@ -472,6 +505,11 @@ Theme Name : RSTITO
 .single-experience:nth-child(3) {
 	background-color: #1c253c;
 }
+
+
+/*  6. Services CSS  */
+
+
 
 
 
