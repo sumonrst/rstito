@@ -65,6 +65,8 @@ Theme Name : RSTITO
 
 
 
+
+
 /* 2. Header  */
 
 .navbar-brand {
@@ -99,6 +101,7 @@ Theme Name : RSTITO
     transition: .3s;
   }
 
+  /* Sticky CSS */
   .header-area.sticky {
     background-color: #fff;
     transition: 1s ease;
@@ -189,5 +192,147 @@ Theme Name : RSTITO
   .banner-btn {
     margin-top: 17px;
   }
+
+
+  /*  4. About CSS  */
+
+
+  .about-content h5 {
+    text-transform: uppercase;
+    color: #888;
+  }
+  .about-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 41px;
+  }
+  .about-content h2:before {
+    position: absolute;
+    content: "";
+    background-color: #F12C01;
+    width: 60px;
+    height: 5px;
+    border-radius: 42px;
+    top: 110%;
+    bottom: 0 !important;
+    transform: translateX(-50%);
+    display: block;
+    left: 30px;
+  }
+  .about-content h2::after {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    width: 20px;
+    height: 5px;
+    bottom: -14px;
+    left: 65px;
+    display: block;
+    border-radius: 39px;
+  }
+
+  
+.about-content h5 {
+  text-transform: uppercase;
+  color: #888;
+}
+.about-content h2 {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  /*! line-height: 46px; */
+  position: relative;
+  margin-bottom: 41px;
+}
+.about-content {
+}
+.about-content h2:before {
+  position: absolute;
+  content: "";
+  background-color: #F12C01;
+  width: 60px;
+  height: 5px;
+  border-radius: 42px;
+  top: 110%;
+  bottom: 0 !important;
+  transform: translateX(-50%);
+  display: block;
+  left: 30px;
+}
+.about-content h2::after {
+  position: absolute;
+  content: "";
+  background-color: #000;
+  width: 20px;
+  height: 5px;
+  bottom: -14px;
+  left: 65px;
+  display: block;
+  border-radius: 39px;
+}
+.about-service {
+  display: flex;
+  justify-content: start;
+  column-gap: 33px;
+  margin: 29px 0;
+}
+.item i {
+  color: #F12C01;
+  margin-right: 5px;
+}
+.item span {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.single-item i {
+  color: tomato;
+  font-size: 18px;
+  margin-right: 9px;
+}
+.single-item {
+  margin: 16px 0;
+}
+.single-item span {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.company-sub-description {
+  margin-top: 36px;
+}
+
+.common-btn {
+  background-color: #F12C01;
+  border-radius: 0;
+  margin-top: 32px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  transition: .3s;
+}
+.common-btn:hover {
+	background-color: #333;
+	transition: .3s;
+	color: #fff;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
