@@ -34,6 +34,7 @@ Theme Name : RSTITO
       color: #333;
       transition: .3s;
   }
+
   
   .pt-100{
       padding-top: 100px;
@@ -304,20 +305,21 @@ Theme Name : RSTITO
 }
 
 .common-btn {
-  background-color: #F12C01;
-  border-radius: 0;
-  margin-top: 32px;
-  color: #fff;
-  font-weight: 500;
-  text-transform: uppercase;
-  border: 0;
-  transition: .3s;
+	background-color: #F12C01;
+	margin-top: 32px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: 1px solid #F12C01;
+	transition: .3s;
+	border-radius: 5px;
 }
 .common-btn:hover {
 	background-color: #333;
 	transition: .3s;
 	color: #fff;
 	border: 0;
+  border: 1px solid #333333;
 }
 
 
@@ -384,6 +386,7 @@ Theme Name : RSTITO
 /* 5. Experience CSS */
 .experience-area {
 	background-color: #F7F7F7;
+  position: relative;
 }
 .section-title h5{
   text-transform: uppercase;
@@ -403,7 +406,7 @@ Theme Name : RSTITO
 	background-color: rgb(0, 0, 0);
 	width: 20px;
 	height: 5px;
-	bottom: -14px;
+	bottom: -21px;
 	left: 65px;
 	display: block;
 	border-radius: 39px;
@@ -415,11 +418,59 @@ Theme Name : RSTITO
 	width: 60px;
 	height: 5px;
 	border-radius: 42px;
-	top: 110%;
+	top: 117%;
 	bottom: 0px !important;
 	transform: translateX(-50%);
 	display: block;
 	left: 30px;
+}
+.experience-left img{
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.experience {
+  position: absolute;
+  z-index: 5;
+  left: -89px;
+  margin-top: 20px;
+}
+.single-experience {
+  background-color: #F12C01;
+  margin-bottom: 22px;
+  padding: 14px 30px;
+  border-radius: 8px;
+  width: 84%;
+}
+.experience-sing-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icon i {
+  font-size: 30px;
+  background-color: #fff;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 50%;
+}
+.experience-content {
+  color: #fff;
+}
+.experience-content h4 {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+}
+.single-experience:nth-child(2) {
+	background-color: #1c253c;
+}
+.single-experience:nth-child(3) {
+	background-color: #1c253c;
 }
 
 
