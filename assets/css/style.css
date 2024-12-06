@@ -84,7 +84,8 @@ Theme Name : RSTITO
 	z-index: 99;
 	left: 0;
 	right: 0;
-    border-bottom: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+  transition: 1s ease;
 }
   .navbar-nav a {
     font-size: 16px;
@@ -96,6 +97,17 @@ Theme Name : RSTITO
   .navbar-nav a:hover{
     color: #F12C01;
     transition: .3s;
+  }
+
+  .header-area.sticky {
+    background-color: #fff;
+    transition: 1s ease;
+  }
+  .header-area.sticky .navbar-nav a {
+    color: #333;
+  }
+  .header-area.sticky .navbar-brand{
+    color: #333;
   }
 
 
