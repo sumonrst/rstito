@@ -862,6 +862,22 @@ Theme Name : RSTITO
   height: 101px;
   align-content: center;
   transition: 1s ease;
+  position: relative;
+}
+
+.team-content:after {
+  position: absolute;
+  content: "";
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 37px;
+  height: 29px;
+  background-color: #F12C01;
+  top: -28px;
+  transition: 1s ease;
+}
+.single-team:hover .team-content::after {
+  background-color: #010D25;
+  transition: 1s ease;
 }
 .team-info{
   transition: 1s ease;
