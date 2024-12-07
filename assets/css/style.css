@@ -973,12 +973,12 @@ Theme Name : RSTITO
   height: 100%;
 }
 
-.blog-comment {
+/* .blog-comment {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: start;
-}
+} */
 .blog-comment span {
   font-size: 12px;
 }
@@ -995,6 +995,20 @@ Theme Name : RSTITO
 	color: #F12C01;
 	transition: .3s;
 	cursor: pointer;
+}
+
+
+.blog-descripton p {
+  margin: 20px 0;
+}
+.blog-social {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.blog-facebook-share a {
+  display: block;
 }
 
 
