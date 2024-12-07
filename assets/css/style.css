@@ -956,9 +956,11 @@ Theme Name : RSTITO
   font-size: 20px;
 }
 .blog-img img {
-  margin-bottom: 25px;
+	margin-bottom: 25px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
-.single-content h2:hover {
+.single-blog:hover h2{
   color: #F12C01;
   transition: .3s;
 }
@@ -998,9 +1000,9 @@ Theme Name : RSTITO
 }
 
 
-.blog-descripton p {
+/* .blog-descripton p {
   margin: 20px 0;
-}
+} */
 .blog-social {
   display: flex;
   flex-direction: column;
@@ -1009,6 +1011,38 @@ Theme Name : RSTITO
 }
 .blog-facebook-share a {
   display: block;
+}
+
+
+.blog-descripton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.blog-descripton p {
+  margin-top: 24px;
+}
+
+.blog-facebook-share {
+  opacity: 0;
+  transition: .3s;
+}
+.single-blog:hover .blog-facebook-share {
+  opacity: 1;
+  transition: .3s;
+}
+.single-blog:hover .blog-share i {
+  color: #F12C01;
+  transition: .3s;
+}
+.blog-descripton i {
+	font-size: 20px;
+}
+.blog-facebook-share a i:hover {
+	color: #F12C01;
+	transition: .3s;
 }
 
 
