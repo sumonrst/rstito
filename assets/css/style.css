@@ -908,10 +908,16 @@ Theme Name : RSTITO
 .team-social a i {
   width: 40px;
   height: 40px;
-  background-color: #F12C01;
+  background-color: #fff;
+  color: #F12C01;
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
+  transition: 1s ease;
+}
+.team-social a:hover i {
+  background-color: #F12C01;
+  color: #333;
   transition: 1s ease;
 }
 
