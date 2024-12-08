@@ -135,6 +135,65 @@ Theme Name : RSTITO
 
 /* 2. Header  */
 
+
+.header-to {
+  background-color: #030D26;
+  color: #fff;
+}
+.heades-to-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-to-icon span i {
+  margin-right: 10px;
+}
+.header-to-icon span {
+  text-transform: capitalize;
+  margin-right: 42px;
+}
+
+.header-social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.single-header-qute-right span {
+  background-color: #F12C01;
+  padding: 10px 21px;
+  text-transform: capitalize;
+}
+.single-header-social-left .facebook {
+	background-color: #FFA08B;
+	color: #fff;
+	padding: 10px 12px;
+}
+.single-header-social-left .twitter {
+	background-color: #FF9379;
+	color: #333;
+	padding: 10px 12px;
+}
+.single-header-social-left .instragram {
+	background-color: #FF8368;
+	color: #333;
+	padding: 10px 12px;
+}
+.single-header-social-left .pinterest {
+	background-color: #FF7454;
+	color: #333;
+	padding: 10px 12px;
+}
+.single-header-social-left .skype {
+	background-color: #FF5C37;
+	color: #333;
+	padding: 10px 12px;
+}
+
+
+
+
 .navbar-brand {
     font-size: 40px;
     text-transform: uppercase;
@@ -152,7 +211,7 @@ Theme Name : RSTITO
 	z-index: 99;
 	left: 0;
 	right: 0;
-  border-bottom: 1px solid aliceblue;
+  border-bottom: 1px solid #f0f8ff3b;
   transition: 1s ease;
 }
   .navbar-nav a {
@@ -1223,14 +1282,15 @@ Theme Name : RSTITO
 
 /* 13. Footer Copyright CSS */
 .footer-copyright {
-  background-color: #030D26;
-  padding: 33px 0;
+	background-color: #030D2661;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ffffff36;
 }
 .footer-bottom-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: tomato;
 }
 .copy-right-text {
   color: #fff;
@@ -1254,8 +1314,6 @@ Theme Name : RSTITO
 .footer-privacy-menu-list > :last-child .hide-last-icon {
 	display: none !important;
 }
-
-
 
 
 
