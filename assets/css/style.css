@@ -18,7 +18,7 @@ Theme Name : RSTITO
     8. Testimonial CSS
     9. Our Team CSS
     10. Our Blog CSS
-
+    11. Brand CSS
 */
 
 /* 1. Common CSS */
@@ -1045,6 +1045,23 @@ Theme Name : RSTITO
 	transition: .3s;
 }
 
+
+/* 11. Brand CSS */
+
+.brand-area {
+	background-color: #030D26;
+}
+
+.brand-image {
+	padding: 60px 0;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.brand-image img:hover {
+	filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
 
 
 
