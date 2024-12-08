@@ -16,4 +16,9 @@ $(window).on('scroll', function () {
     }else{
         $('.header-area').removeClass('sticky');
     }
+    if($(window).scrollTop() > 0) {
+        $('.header-to').addClass('header-top-bar');
+    }else{
+        $('.header-to').removeClass('header-top-bar');
+    }
 });

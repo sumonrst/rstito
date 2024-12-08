@@ -140,6 +140,10 @@ Theme Name : RSTITO
   background-color: #030D26;
   color: #fff;
 }
+.header-top-bar {
+	display: none;
+	transition: 1s ease;
+}
 .heades-to-inner {
   display: flex;
   justify-content: space-between;
