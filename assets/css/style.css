@@ -20,6 +20,7 @@ Theme Name : RSTITO
     10. Our Blog CSS
     11. Brand CSS
     12. Footer CSS
+    13. Footer Copyright CSS
 */
 
 /* 1. Common CSS */
@@ -1069,7 +1070,9 @@ Theme Name : RSTITO
 
 
 /* 12. Footer CSS */
-
+.footer-middle {
+	padding-top: 100px;
+}
 .footer-area {
   background-size: cover;
   background-position: center;
@@ -1184,10 +1187,73 @@ Theme Name : RSTITO
   margin-right: 10px;
 }
 
+.contact-form-footer {
+	margin-top: 22px !important;
+}
+.contact-form-footer input:focus {
+  outline: none;
+  border: 1px solid #F12C01;
+  transition: .3s;
+}
+.contact-form-footer button {
+  position: absolute;
+  margin-left: -48px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: #F12C01;
+  border: 0;
+}
+.contact-form-footer input {
+  width: 100%;
+  padding: 15px 13px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.contact-form-footer {
+  position: relative;
+}
+.contact-form-footer button i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
 
 
+/* 13. Footer Copyright CSS */
+.footer-copyright {
+  background-color: #030D26;
+  padding: 33px 0;
+}
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: tomato;
+}
+.copy-right-text {
+  color: #fff;
+}
+.footer-privacy-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-privacy-menu-list li a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
 
-
+.footer-privacy-menu-list li a i {
+  color: #fff;
+  rotate: 90deg;
+  margin-left: 10px;
+}
+.footer-privacy-menu-list > :last-child .hide-last-icon {
+	display: none !important;
+}
 
 
 
