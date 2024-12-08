@@ -161,9 +161,15 @@ Theme Name : RSTITO
 }
 
 .single-header-qute-right span {
-  background-color: #F12C01;
-  padding: 10px 21px;
-  text-transform: capitalize;
+	background-color: #F12C01;
+	text-transform: capitalize;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+.single-header-social-left {
+	display: flex;
 }
 .single-header-social-left .facebook {
 	background-color: #FFA08B;
@@ -206,13 +212,15 @@ Theme Name : RSTITO
 
   
   .header-area {
-	padding: 12px 0;
 	position: fixed;
 	z-index: 99;
 	left: 0;
 	right: 0;
   border-bottom: 1px solid #f0f8ff3b;
   transition: 1s ease;
+}
+.header-middle{
+  padding: 12px 0px;
 }
   .navbar-nav a {
     font-size: 16px;
