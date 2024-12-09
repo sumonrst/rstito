@@ -1498,36 +1498,111 @@ Theme Name : RSTITO
 
 
 
-
-
-
-
 }
 
 
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+  /* Section Title CSS */
+  .section-title_2 h2 {
+    font-size: 32px;
+  }
+  
+  .about-image-wrap {
+    margin-top: 40px;
+  }
 
+  /* Shape CSS */
+  .about-img-shape-1 {
+    left: 12px;
+  }
+  .about-img-shape-2 {
+    right: 12px;
+  }
 
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) {
+  /* Before & After CSS */
+  .section-title_2 h2::after {
+    bottom: -12px;
+    left: 56%;
+  }
 
-  .experience-left img{
+  /* Experience CSS */
+  .experience-area {
+    position: inherit;
+  }
+  .experience {
+    position: inherit; 
+    z-index: 5;
+    left: -89px;
+    margin-top: 70px;
+  }
+  .experience-sing-item {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .single-experience {
+    width: 100%; 
+    padding: 49px 30px;
+  }
+  .experience-left{
     display: none;
   }
-
-} */
-
-/* @media (min-width: 1140px) and (max-width: 1200px) {
-  .about-img-shape-1 {
-    right: 396px;
+  .section-title {
+    text-align: center;
   }
+  .section-title h2::after {
+    bottom: -18px;
+    left: 52%;
+  }
+  .section-title h2::before {
+    left: 45%;
+  }
+
+  /* Contact CSS */
+  .contact-area {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact-image {
+    display: none;
+  }
+  /* Team CSS */
+  .single-team {
+    margin-bottom:30px;
+  }
+
+  /* Footer CSS */
+  .widget-area {
+    margin-bottom: 40px;
+  }
+  .footer-bottom-inner {
+    flex-direction: column-reverse;
+  }
+  .footer-privacy-menu-list {
+    padding: 0;
+    margin: 0;
+  }
+  .footer-privacy-menu-list li a{
+   font-size: 10px;
+  }
+  .footer-privacy-menu-list li a i {
+    margin-left: 7px;
+  }
+  .copy-right-text p {
+    font-size: 10px;
+  }
+  /* Blog CSS */
+  .single-blog {
+    margin-bottom: 25px;
+  }
+
+
+
+
+
 }
-@media (min-width: 1320px) and (max-width: 1400px) {
-  .about-img-shape-1 {
-    right: 518px;
-  }
-} */
-
-
 
 
 
