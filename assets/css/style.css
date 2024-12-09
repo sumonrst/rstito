@@ -1488,6 +1488,11 @@ Theme Name : RSTITO
       bottom: -12px;
     }
 
+    /* Footer CSS */
+    .footer-bottom-inner {
+      flex-direction: column-reverse;
+    }
+
 
 
 
