@@ -164,6 +164,12 @@ Theme Name : RSTITO
 	align-items: center;
 }
 
+.single-header-qute-right a{
+  text-decoration: none;
+}
+.single-header-qute-right a:hover{
+  color: #fff;
+}
 .single-header-qute-right span {
 	background-color: #F12C01;
 	text-transform: capitalize;
@@ -177,28 +183,37 @@ Theme Name : RSTITO
 }
 .single-header-social-left .facebook {
 	background-color: #FFA08B;
-	color: #fff;
+	color: #333;
 	padding: 10px 12px;
+  transition: .3s;
 }
 .single-header-social-left .twitter {
 	background-color: #FF9379;
 	color: #333;
 	padding: 10px 12px;
+  transition: .3s;
 }
 .single-header-social-left .instragram {
 	background-color: #FF8368;
 	color: #333;
 	padding: 10px 12px;
+  transition: .3s;
 }
 .single-header-social-left .pinterest {
 	background-color: #FF7454;
 	color: #333;
 	padding: 10px 12px;
+  transition: .3s;
 }
 .single-header-social-left .skype {
 	background-color: #FF5C37;
 	color: #333;
 	padding: 10px 12px;
+  transition: .3s;
+}
+.single-header-social-left a:hover i{
+  color:#fff;
+  transition: .3s;
 }
 
 
@@ -460,6 +475,68 @@ Theme Name : RSTITO
 }
 
 
+
+
+.about-image-wrap{
+  position: relative;
+}
+.about-images-right img{
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about-img-shape-1 {
+	position: absolute;
+	bottom: 0;
+	left: -27px;
+	top: 36px;
+}
+.about-img-shape-1 img {
+	width: 181px;
+	height: 203px;
+	border: 8px solid #fff;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.about-img-shape-2 {
+	position: absolute;
+	right: -27px;
+	bottom: 36px;
+	background-color: #F22C01;
+	padding: 37px 21px;
+	border: 8px solid #fff;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.about-img-shape-2 h4 {
+	color: #fff;
+	font-size: 47px;
+	font-weight: 700;
+}
+
+.about-img-shape-2 span {
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about-wrapper {
   position: relative;
 }
@@ -632,6 +709,9 @@ Theme Name : RSTITO
 .service-image img {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+}
+.service-content .icon {
+	margin-top: -28px;
 }
 
 .icon i {
@@ -1267,12 +1347,12 @@ Theme Name : RSTITO
   transition: .3s;
 }
 .contact-form-footer button {
-  position: absolute;
-  margin-left: -48px;
-  margin-top: 8px;
-  border-radius: 8px;
-  background-color: #F12C01;
-  border: 0;
+	position: absolute;
+	margin-left: -59px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background-color: #F12C01;
+	border: 0;
 }
 .contact-form-footer input {
   width: 100%;
@@ -1284,19 +1364,19 @@ Theme Name : RSTITO
   position: relative;
 }
 .contact-form-footer button i {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  color: #fff;
+	width: 55px;
+	height: 48px;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
 }
 
 
 /* 13. Footer Copyright CSS */
 .footer-copyright {
 	background-color: #030D2661;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	border-top: 1px solid #ffffff36;
 }
 .footer-bottom-inner {
@@ -1326,6 +1406,28 @@ Theme Name : RSTITO
 .footer-privacy-menu-list > :last-child .hide-last-icon {
 	display: none !important;
 }
+
+/* Responsive CSS */
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+
+  .experience-left img{
+    display: none;
+  }
+
+} */
+
+/* @media (min-width: 1140px) and (max-width: 1200px) {
+  .about-img-shape-1 {
+    right: 396px;
+  }
+}
+@media (min-width: 1320px) and (max-width: 1400px) {
+  .about-img-shape-1 {
+    right: 518px;
+  }
+} */
 
 
 
