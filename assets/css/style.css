@@ -149,6 +149,9 @@ Theme Name : RSTITO
   justify-content: space-between;
   align-items: center;
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #F12C01 !important;
+}
 
 .header-to-icon span i {
   margin-right: 10px;
