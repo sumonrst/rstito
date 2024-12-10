@@ -1138,6 +1138,11 @@ Theme Name : RSTITO
   font-size: 12px;
 }
 
+.blog-comment {
+	display: flex;
+	flex-direction: column;
+}
+
 
 .blog-social {
   display: flex;
@@ -1446,6 +1451,15 @@ Theme Name : RSTITO
       display: none;
     }
 
+    /* Contact CSS */
+    .single-col-row {
+      flex-direction: column;
+    }
+
+
+
+    
+
     /* .single-testimonial-slider{
       text-align: center;
     }
@@ -1493,12 +1507,51 @@ Theme Name : RSTITO
       flex-direction: column-reverse;
     }
 
-
-
-
+    /* .blog-comment span {
+      padding-right: 19px !important;
+    }
+    .blog-comment span i {
+      margin-right: 3px !important;
+    } */
 
 
 }
+
+
+/* Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) {
+  .blog-comment span {
+    padding-right: 19px !important;
+  }
+  .blog-comment span i {
+    margin-right: 3px !important;
+  }
+
+
+} */
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+  .section-title_2 h2::after {
+    bottom: -17px;
+  }
+  .section-title_2 h2::before {
+    left: 45%;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -1523,8 +1576,19 @@ Theme Name : RSTITO
 
   /* Before & After CSS */
   .section-title_2 h2::after {
-    bottom: -12px;
+    bottom: -18px;
     left: 56%;
+  }
+  .section-title_2 h2::before {
+    left: 45%;
+  }
+
+  .section-title h2::after {
+    bottom: -28px;
+    left: 52%;
+  }
+  .section-title h2::before {
+    left: 41%;
   }
 
   /* Experience CSS */
@@ -1552,18 +1616,14 @@ Theme Name : RSTITO
   .section-title {
     text-align: center;
   }
-  .section-title h2::after {
-    bottom: -18px;
-    left: 52%;
-  }
-  .section-title h2::before {
-    left: 45%;
-  }
 
   /* Contact CSS */
   .contact-area {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .single-col-row {
+    flex-direction: column;
   }
   .contact-image {
     display: none;
