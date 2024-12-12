@@ -1600,6 +1600,27 @@ Theme Name : RSTITO
 .about-inner-desc {
   margin-top: 16px;
 }
+
+
+
+.single-gallery-1 img {
+  height: 250px;
+  border-top-left-radius: 10px;
+}
+.single-gallery-2 img {
+  height: 250px;
+  border-top-right-radius: 10px;
+}
+.single-gallery-3 img {
+  height: 306px;
+  border-bottom-left-radius: 10px;
+}
+.single-gallery-4 img {
+  height: 306px;
+  border-bottom-right-radius: 10px;
+}
+
+
 /* About Page Service Section End */
 
 /* About Page CSS End */
