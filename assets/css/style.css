@@ -1521,29 +1521,88 @@ Theme Name : RSTITO
 }
 
 
-/* Large devices (desktops, 992px and up) */
-/* @media (max-width: 992px) {
-  .blog-comment span {
-    padding-right: 19px !important;
-  }
-  .blog-comment span i {
-    margin-right: 3px !important;
-  }
 
 
-} */
+/* About Page CSS Start */
+.breadcrumb-area {
+	background-size: cover;
+	background-position: top;
+	/* padding: 200px 0; */
+  padding-top: 270px;
+  padding-bottom: 200px;
+  position: relative;
+  z-index: 2;
+}
+.breadcrumb-area::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.85;
+  z-index: -1;
+}
+
+.breadcrumb-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.breadcrumb-list li {
+  list-style: none;
+}
+.breadcrumb-list li a {
+  text-decoration: navajowhite;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.single-breadcrumb .breadcrumb-list li.active{
+  color: tomato;
+}
+.single-breadcrumb h4 {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 39px;
+}
 
 
-/* X-Small devices (portrait phones, less than 576px) */
-/* @media (max-width: 575.98px) {
-  .section-title_2 h2::after {
-    bottom: -17px;
-  }
-  .section-title_2 h2::before {
-    left: 45%;
-  }
-} */
+/* About Page Service Section Start */
 
+.about-inner-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+.about-service-main {
+  padding: 34px 36px;
+  border-radius: 8px;
+  border: 1px solid #f2f2f282;
+  transition: .3s;
+}
+.about-service-main:hover {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	transition: .3s;
+}
+.about-service-wrapper {
+  padding-top: 50px;
+}
+.about-inner-single h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+.about-inner-desc {
+  margin-top: 16px;
+}
+/* About Page Service Section End */
+
+/* About Page CSS End */
 
 
 
@@ -1559,35 +1618,98 @@ Theme Name : RSTITO
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+  /* Header Top bar CSS */
+  .header-to {
+    display: none;
+  }
+
+  /* Banner Content CSS */
+  .banner-content h2 {
+    font-size: 38px;
+  }
+  .banner-content h5 {
+    font-size: 15px;
+  }
   
   /* Section Title CSS */
+  .about-content h2 {
+    font-size: 25px;
+  }
+  .about-content h5 {
+    font-size: 15px;
+  }
+  .about-content h2::after {
+    bottom: -11px;
+  }
+  .item span {
+    font-size: 13px;
+  }
+  .single-item span {
+    font-size: 14px;
+  }
+  .section-title_2 h5 {
+    font-size: 15px;
+  }
   .section-title_2 h2 {
-    font-size: 32px;
+    font-size: 25px;
   }
   
   .about-image-wrap {
     margin-top: 40px;
   }
 
+  .section-title h5 {
+    font-size: 15px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+
+  /* Contact Form Title */
+  .contact-wrapper h2 {
+    font-size: 17px;
+  }
+  
+
+
+
+
+
   /* Shape CSS */
   .about-img-shape-1 {
     left: 12px;
   }
+  .about-img-shape-1 img {
+    width: 154px;
+    height: 160px;
+  }
   .about-img-shape-2 {
     right: 12px;
+  }
+  .about-img-shape-2 {
+    right: 12px;
+    bottom: 27px;
+  }
+  .about-img-shape-2 h4 {
+    font-size: 37px;
+  }
+  .about-img-shape-2 span {
+    font-size: 13px;
   }
 
   /* Before & After CSS */
   .section-title_2 h2::after {
-    bottom: -18px;
-    left: 56%;
+    bottom: -11px;
+    left: 203px;
   }
   .section-title_2 h2::before {
     left: 45%;
+    top: 136%;
   }
 
   .section-title h2::after {
-    bottom: -28px;
+    bottom: -16px;
     left: 52%;
   }
   .section-title h2::before {
