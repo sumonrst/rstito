@@ -1573,6 +1573,21 @@ Theme Name : RSTITO
 
 /* About Page Service Section Start */
 
+
+.title h5 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #999;
+  text-transform: uppercase;
+}
+.title h4 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 59px;
+  color: #2B2B2B;
+}
+
 .about-inner-item {
   display: flex;
   flex-direction: row;
@@ -1773,6 +1788,18 @@ Theme Name : RSTITO
 
 
 /* About Page Who We Are Single Category Button CSS */
+.who-content-main h4 {
+	color: #999;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 33px;
+}
+.who-content-main h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #2B2B2B;
+	line-height: 55px;
+}
 .who-we-are {
 	background-size: cover;
 	background-position: center;
@@ -1833,9 +1860,22 @@ Theme Name : RSTITO
   color: #fff;
 }
 
-
-
 /* About Page Service Section End */
+
+/* Our vision CSS Start */
+.about-our-vision-area .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.about-our-mission-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  padding: 0 50px;
+  align-items: center;
+}
+/* Our vision CSS End */
 
 /* About Page CSS End */
 
