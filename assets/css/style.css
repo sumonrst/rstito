@@ -1912,6 +1912,52 @@ Theme Name : RSTITO
 
 
 
+/* Service Page CSS Start */
+
+.service-page-main-area .title p {
+	margin-top: 18px;
+  margin-bottom: 33px;
+	max-width: 525px;
+}
+
+.service-page-image img {
+	height:580px;
+	border: 17px solid #fff;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 8px;
+}
+
+.service-page-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.service-page-single {
+  background-color: #fff;
+  width: 483px;
+  padding: 24px 25px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.service-title-icon {
+  display: flex;
+  gap: 14px;
+}
+.service-title-icon h5 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.service-title-icon i {
+	color: #F12C01;
+	font-size: 24px;
+}
+
+/* Service Page CSS End */
+
+
+
 
 
 
