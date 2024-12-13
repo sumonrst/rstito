@@ -1954,6 +1954,86 @@ Theme Name : RSTITO
 	font-size: 24px;
 }
 
+
+/* Service section CSS */
+
+.service-page-service {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
+}
+.service-page-service:before {
+  position: absolute;
+  content: "";
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+
+.ser-page-service {
+	background-size: cover;
+	background-position: center;
+	padding: 44px 24px;
+	position: relative;
+	z-index: 5;
+	border-radius: 10px;
+	margin-bottom: 24px;
+	text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ser-page-service:before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.85;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.ser-page-service:hover:before {
+  position: absolute;
+  content: "";
+  background-color: #F12C01;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+  opacity: 100%;
+}
+
+.ser-page-service i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #F12C01;
+}
+.ser-page-service:hover i{
+  color: #fff;
+}
+
+.ser-page-service h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 19px;
+}
+.ser-page-service:hover h2{
+  color: #fff;
+}
+.ser-page-service:hover p{
+  color: #fff;
+}
+
 /* Service Page CSS End */
 
 
