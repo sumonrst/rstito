@@ -1875,7 +1875,38 @@ Theme Name : RSTITO
   padding: 0 50px;
   align-items: center;
 }
+.about-our-mission-content p {
+	width: 57%;
+}
+
+.vision-menu-list {
+  list-style: none;
+}
+.vision-menu-list li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #353535;
+}
+.vision-menu-list li a i {
+  margin-right: 11px;
+  color: #F12C01;
+  font-size: 13px;
+}
+.vision-menu-list li {
+  padding: 4px 0;
+}
 /* Our vision CSS End */
+
+/* About Page Testimonial CSS Start */
+.testimonial-area.bg-color {
+	background-color: #F7F7F7;
+}
+
+/* About Page Testimonial CSS End */
+
+
+/* About Page Testimonial CSS End */
 
 /* About Page CSS End */
 

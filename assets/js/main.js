@@ -6,6 +6,12 @@ $(document).ready(function(){
         arrows: true,
         slidesToShow: 1,
     });
+    $('.testimonial-main').slick({
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
+        arrows: true,
+        slidesToShow: 2,
+    });
   });
 
 
