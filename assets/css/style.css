@@ -2166,9 +2166,55 @@ Theme Name : RSTITO
   border: 2px solid #EBECEE;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
-
 /* Contact page CSS End */
+
+
+/* Blog Page CSS Start */
+
+.blog-about-me {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 86px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.blog-about-me img {
+  border-radius: 50%;
+}
+.blog-about-me h2 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-top: 16px;
+}
+.blog-about-me p {
+	font-size: 13px;
+}
+.blog-about-me-social {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	gap: 14px;
+	padding: 0;
+	margin: 0;
+}
+.blog-about-me-social li {
+	border-right: 1px solid #ddd;
+	padding-right: 14px;
+}
+.blog-about-me-social li:last-child{
+  border-right: 0;
+}
+
+
+
+/* Blog Page CSS End */
 
 
 
