@@ -2034,7 +2034,117 @@ Theme Name : RSTITO
   color: #fff;
 }
 
+/* Service page Pricing CSS */
+.single-pricing-item {
+	margin-top: 20px;
+}
+.pricing {
+  padding: 16px 20px 35px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pricing h2 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.pricing-value h2 {
+	font-weight: 700;
+	font-size: 40px;
+  margin-left: 25px;
+}
+.pricing-value h2 .pricing-symble {
+	margin-top: -5px;
+	position: absolute;
+	margin-left: -19px;
+	font-weight: normal;
+	font-size: 27px;
+}
+.pricing-value {
+	position: relative;
+	background-color: #FFDDD4;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.pricing-value h2 .pricing-month {
+  font-size: 21px;
+  font-weight: normal;
+  text-transform: none;
+}
+.pricing-list {
+  list-style: none;
+  margin: 0;
+  padding: 19px 0;
+  background-color: #F7F7F7;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.pricing-list li {
+  padding: 7px 0px;
+}
+.pricing-list li i {
+  margin-right: 12px;
+}
+
 /* Service Page CSS End */
+
+
+/* Contact page CSS Start */
+.single-contact-address {
+	border-radius: 10px;
+	border: 15px solid #fff;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.single-contact-content {
+	background-color: #EBECEE;
+	padding: 50px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.address-item i {
+  font-size: 33px;
+  color: #F12C01;
+}
+.address-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.address-item h4 span {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.address-item h5 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 23px;
+}
+.address-item h5 span {
+  display: block;
+  margin-top: 5px;
+}
+.address-item h5 a {
+  text-decoration: none;
+}
+.address-item h5 a:hover {
+	color: #F12C01;
+}
+
+
+/* Contact page CSS End */
 
 
 
