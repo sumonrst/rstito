@@ -2143,6 +2143,30 @@ Theme Name : RSTITO
 	color: #F12C01;
 }
 
+.contact-area.contact-bg {
+	background-color: #fff !important;
+}
+.contact-wrapper.wrap-border {
+	border: 17px solid #fff;
+}
+.contact-bg .contact-wrapper {
+	padding: 0px 0px;
+}
+.contact-wrapper-inner {
+	background-color: #EBECEE;
+	padding: 40px 15px;
+  border-radius: 10px;
+}
+
+
+.contact-map iframe {
+  height:    562px !important;
+  width: 100% !important;
+  border-radius: 10px;
+  border: 2px solid #EBECEE;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+
 
 /* Contact page CSS End */
 
