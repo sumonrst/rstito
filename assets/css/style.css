@@ -1102,6 +1102,7 @@ Theme Name : RSTITO
   padding: 16px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 .single-content h2 {
   font-size: 20px;
@@ -2217,6 +2218,35 @@ Theme Name : RSTITO
 }
 .blog-about-me-social li:last-child{
   border-right: 0;
+}
+
+/* Blog Siderbar Search CSS Start */
+
+.blog-sidebar-search input {
+  position: relative;
+  background-color: #030D26;
+  color: #fff;
+  padding: 12px 11px;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.blog-sidebar-single .blog-submit-btn {
+  position: absolute;
+  border: 0;
+  background-color: #F12C01;
+  padding: 12px 19px;
+  border-radius: 5px;
+}
+.blog-sidebar-single .blog-submit-btn i {
+  font-size: 18px;
+  color: #fff;
+}
+.blog-sidebar-single button {
+  margin-left: -56px;
+  position: absolute;
+  margin-top: 0px;
 }
 
 
