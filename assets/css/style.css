@@ -2171,12 +2171,19 @@ Theme Name : RSTITO
 
 /* Blog Page CSS Start */
 
-.blog-about-me {
+.blog-sidebar-single {
+	padding: 20px 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.blog-about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 86px;
+  padding: 48px 0;
   text-align: center;
   border-radius: 10px;
 }
@@ -2210,6 +2217,43 @@ Theme Name : RSTITO
 }
 .blog-about-me-social li:last-child{
   border-right: 0;
+}
+
+
+.blog-sidebar-single h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+.sidebar-post {
+  display: flex;
+  justify-content: space-between;
+  gap: 11px;
+}
+.sidebar-post:hover h4{
+  color: #F12C01;
+}
+.single-post img {
+  width: 100px !important;
+  border-radius: 5px;
+}
+
+.single-post-content h4 {
+  font-size: 13px;
+}
+.single-post-content h4:hover{
+  color: #F12C01;
+}
+.single-post-content a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.single-post-content a i {
+  margin-right: 5px;
+}
+.sidebar-post:hover .single-post-content a{
+  color: #F12C01;
 }
 
 
