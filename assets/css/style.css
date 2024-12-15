@@ -2276,7 +2276,13 @@ Theme Name : RSTITO
   text-transform: capitalize;
 }
 .cat-item span {
-  float: right;
+	float: right;
+	background-color: #EEEEEE;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
 }
 .cat-item {
   padding: 5px 0;
@@ -2291,9 +2297,71 @@ Theme Name : RSTITO
   color: #F12C01;
 }
 
+/* Blog Sidebar Tags CSS Start */
 
+.tag-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tag-list li a {
+  text-decoration: navajowhite;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tag-list li {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.tag-list li:hover {
+  border-color: #F22C01;
+  transition: .3s;
+}
+.tag-list li:hover a {
+  color: #F12C01;
+  transition: .3s;
+}
 
 /* Blog Page CSS End */
+
+/* Blog Page Pagination CSS Start */
+.blog-pagination {
+	margin-top: 62px;
+}
+
+.blog-pagination-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  gap: 17px;
+}
+
+.blog-pagination-list .page-number span {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #575757;
+}
+.blog-pagination-list .page-number {
+  border: 1px solid #333;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+}
+.page-number.active {
+  background-color: #F12C01;
+  border: 0;
+}
+.page-number.active span {
+  color: #fff;
+}
 
 
 
