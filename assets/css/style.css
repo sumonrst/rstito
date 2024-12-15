@@ -2172,7 +2172,7 @@ Theme Name : RSTITO
 /* Blog Page CSS Start */
 
 .blog-sidebar-single {
-	padding: 20px 20px;
+	padding: 20px 23px;
 	background-color: #fff;
 	margin-bottom: 20px;
   border-radius: 10px;
@@ -2226,15 +2226,21 @@ Theme Name : RSTITO
   font-weight: 600;
   margin-bottom: 13px;
 }
-.sidebar-post {
-  display: flex;
-  justify-content: space-between;
-  gap: 11px;
+.single-sidebar-item {
+	display: flex;
+	justify-content: space-between;
+	gap: 11px;
+	border-bottom: 2px solid #F12C01;
+	padding-top: 13px;
+	padding-bottom: 13px;
 }
-.sidebar-post:hover h4{
+.single-sidebar-item:last-child {
+	border-bottom: 0;
+}
+.single-sidebar-item:hover h4{
   color: #F12C01;
 }
-.single-post img {
+.single-sidebar-item img {
   width: 100px !important;
   border-radius: 5px;
 }
@@ -2252,7 +2258,36 @@ Theme Name : RSTITO
 .single-post-content a i {
   margin-right: 5px;
 }
-.sidebar-post:hover .single-post-content a{
+.single-sidebar-item:hover .single-post-content a{
+  color: #F12C01;
+}
+
+/* Blog Sidebar Category CSS Start */
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.category-list li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.cat-item span {
+  float: right;
+}
+.cat-item {
+  padding: 5px 0;
+}
+.category-list li a:hover span {
+  color: #F12C01;
+}
+.category-list li:hover a {
+  color: #F12C01;
+}
+.category-list li:hover span {
   color: #F12C01;
 }
 
